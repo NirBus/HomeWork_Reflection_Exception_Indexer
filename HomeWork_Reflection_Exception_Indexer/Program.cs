@@ -4,11 +4,15 @@ namespace HomeWork_Reflection_Exception_Indexer
 {
     internal class Program
     {
+        public static MainPrintFile mainPrintFile = new MainPrintFile();
+
         static void Main(string[] args)
         {
-            PDF.GetPdf();
-            Excel.GetExcel();
-            Word.GetWord();
+            mainPrintFile.Print();
+
+
+
+            
 
 
 

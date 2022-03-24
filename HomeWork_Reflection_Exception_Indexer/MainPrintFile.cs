@@ -17,7 +17,6 @@ namespace HomeWork_Reflection_Exception_Indexer
             {
                 Console.WriteLine("PDF cap edildi.");
             }
-            else
             if (excel != null)
             {
                 Console.WriteLine("Excel cap edildi.");
